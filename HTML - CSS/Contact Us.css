@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Oswald';
+}
+
+.topnav a:hover {
+    background-color: #A3ACB3;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #F8CD02;
+    color: white;
+}
+
+body {
+    background-image: url(updated\ porsche\ background.jpg);
+    color: #f2f2f2;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 43px;
+    position: absolute;
+    top: 35px;
+    left: 540px;
+    color: #f2f2f2;
+    font-family: 'Oswald';
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Oswald';
+}
+
+.contactuspara {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactuspara h1, .contactuspara h2 {
+    color: #f2f2f2;
+    font-family: 'Oswald';
+}
+
+.contactuspara p {
+    color: #ddd;
+    line-height: 1.6;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px; 
+}
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contactinfo div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.contactinfo div a {
+    color: #F8CD02;
+    text-decoration: none;
+}
+
+.contactinfo div a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    color: #ddd;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #F8CD02;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #A3ACB3;
+}
+
+.contactuspara strong {
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
+.contactuspara .para1, .contactuspara .para2, .contactuspara .para3 {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .contactinfo {
+        flex-direction: column;
+    }
+}

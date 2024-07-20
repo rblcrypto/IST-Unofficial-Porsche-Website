@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Oswald';
+  }
+  
+  .topnav a:hover {
+    background-color: #A3ACB3;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #F8CD02;
+    color: white;
+  }
+
+  body {
+    background-image: url(updated\ porsche\ background.jpg);
+    color:#f2f2f2;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 43px;
+    margin-left: 575px;
+    margin-top: 30px;
+    font-family: 'Oswald';
+  }
+
+  p {
+    font-size: 19px;
+    margin-left: 187px;
+    margin-top: 1px;
+    font-family: 'Oswald';
+  }
+
+  .img1 {
+    position: absolute;
+    top: 925px;
+    right: 720px;
+  }
+
+  .img2 {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 935px;
+    left: 610px;
+  }
+
+  .img3 {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    top: 1330px;
+    right: 670px;
+  }
+
+  .img4 {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 1260px;
+    left: 620px;
+  }
+
+  .img5 {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    left: 315px;
+    top: 1620px;
+  }
+
+  .img6 {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    right: 620px;
+    top: 1950px;
+  }
+
+  .img7 {
+    width: 60%;
+    height: 65%;
+    position: absolute;
+    left: 490px;
+    top: 2260px;
+  }
+
+  .img8 {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    left: 670px;
+    top: 1950px;
+  }
+
+  .img9 {
+    width: 60%;
+    height: 65%;
+    position: absolute;
+    right: 400px;
+    top: 2630px;
+  }
+
+  .img10 {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 2990px;
+    left: 600px;
+  }
+
+  .img11 {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 3300px;
+    left: 615px;
+  }
+
+  .img12 {
+    width: 43%;
+    height: 55%;
+    position: absolute;
+    top: 3180px;
+    right: 690px;
+  }
