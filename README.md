@@ -17,6 +17,12 @@ Site Map (Rehan, Ryan)
 
 Contact Us (Rehan, Ryan)
 
+Early Storyboard/Site Map (Rehan)
+
+Breakdown of Tasks in README (Rehan)
+
+Evaluation (Ryan)
+
 
 Note: This is an unofficial take on Porsche's website, there is no intention of imitating the brand or their website. This will not be monetised or used in the public domain in any way. 
 
